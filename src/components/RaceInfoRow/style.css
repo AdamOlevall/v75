@@ -1,0 +1,25 @@
+.race-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .race-info-column p {
+    text-align: left;
+    color: #63666a;
+  }
+  
+  .race-info-column {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .race-info-column--right {
+    justify-content: flex-end;
+  }
+  
+  .race-info-column--right p {
+    text-align: right;
+  };
+  

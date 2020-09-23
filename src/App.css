@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container {
+  flex-direction: column;
+  display: flex;
   min-height: 100vh;
+  padding: 2rem;
+  align-items: center;
+}
+
+.content {
   display: flex;
   flex-direction: column;
+  width: 500px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #63666a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.race-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(112, 112, 112, 0.3);
+  border-radius: 4px;
+}
+
+.race-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #63666a;
+}
+
+.race-info-row.button {
+  cursor: pointer;
+  background-color: inherit;
+  outline: none;
 }

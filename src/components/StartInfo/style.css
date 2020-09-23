@@ -1,0 +1,21 @@
+.start-info-header {
+    font-size: 16px;
+    font-weight: bold;
+    color: #63666a;
+  }
+  
+  .start-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px #63666a solid;
+    margin-bottom: 0.5rem;
+  }
+  
+  .start-info-wrapper:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  .start-info-chevron.open {
+    transform: rotate(180deg);
+  }
